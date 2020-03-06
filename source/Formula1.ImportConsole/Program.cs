@@ -8,7 +8,7 @@ namespace Formula1.ImportConsole
 {
   class Program
   {
-    static async Task Main(string[] args)
+    static async Task Main()
     {
       Console.WriteLine("Import der Rennen und Ergebnisse in die Datenbank");
       using (ApplicationDbContext dbContext = new ApplicationDbContext())
